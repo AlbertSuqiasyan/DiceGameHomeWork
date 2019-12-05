@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InternShipTest</string>
+    <string name="roll">Roll</string>
+    <string name="_DiceNumber">1</string>
+    <string name="clean">Clean</string>
+    <string name="clear">Clear</string>
+</resources>

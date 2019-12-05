@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/diceImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/empty_dice" />
+
+    <ImageView
+        android:id="@+id/diceImageView1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/empty_dice" />
+
+    <TextView
+        android:id="@+id/playerTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player 1 Score: 0" />
+
+    <ImageView
+        android:id="@+id/diceImageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/empty_dice" />
+
+    <ImageView
+        android:id="@+id/diceImageView4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/empty_dice" />
+
+    <TextView
+        android:id="@+id/playerTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Player 2 score: 0" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="rollDice"
+        android:text="@string/roll" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/clear"
+        android:onClick="clear"/>
+
+    <TextView
+        android:id="@+id/winnerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
