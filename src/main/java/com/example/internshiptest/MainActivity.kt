@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity() {
         playerScoreTextView2.text = "Player 1 Score: $playerScore2"
     }
 
-    fun annimateDice(dice: ImageView) {
+    fun annimateDice(dice: ImageView) {           // mi angama ashxatum amen view i hamar chem haskanum inchu
         dice.animate().rotationX(720f).duration = 1000
     }
 }
